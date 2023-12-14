@@ -139,6 +139,7 @@ img {
  } */
  @media screen and (min-width: 768px){
     .container{
+        width: 100%;
         max-width: 1140px;
     }
 
@@ -159,7 +160,10 @@ img {
         padding: 10px;
     }
 
-    .lessons .col{
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right{
          width: 100%; 
          padding: 25px 0;
    } 
@@ -168,25 +172,14 @@ img {
     font-size: 2.9rem;
    }
 
-   .steps .col{
-    width: 100%;
-    padding: 25px 0;
-   }
-
+  
    .why-us{
     padding: 38px;
     background-color: #222222;
     margin-bottom: 0;
    }
         
-   .why-us .col-left{
-    width: 100%;
-   }
-
-   .why-us .col-right{
-    width: 100%;
-   }
-
+   
    .why-us .col-right li{
     padding: 25px 0;
     margin-bottom: 10px;
